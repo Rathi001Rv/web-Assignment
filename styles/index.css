@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  @font-face {
+    font-family: Poppins-Bold
+    ;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}    
+
+#header{
+    background-color: brown !important;
+    color: white !important;
+    padding: 10px !important;
+}
+.contcat{
+ display: inline !important;  
+}
+span{
+    display: inline !important;
+}
+.navbar{
+    display: inline-flex !important;
+    flex-direction: row !important;
+}
+button{
+    background-color: white !important;
+    color: black !important;
+    border: none !important;}
+    #get{
+        background-color:brown !important;
+        color: white !important;
+        text-align: center !important;
+        height: 30px;
+        font-weight: bold;
+        /* justify-content: space-between; */
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    #bgimage{
+        background-image:url(../images/home-section-1-background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 50px !important;
+
+        
+    }
+    #text{
+        font-family:Poppins-Bold !important;
+     
+    }
+    #line{
+        /* border: 1px solid black !important;
+        width: 50px !important;
+        height: 1px !important;
+        display:inline !important;
+        flex-direction: row !important; */
+    }
+    #text1{font-family: Poppins-Bold !important;
+        font-size: medium;
+        font-weight: bold;
+        color: rgb(113, 110, 110) !important;
+}
+   #text2{
+    font-family: Poppins-Bold !important;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(113, 110, 110) !important;
+ }
+   .brown{
+    color: rgb(132, 30, 30);
+   }
+   #button{
+    border: 1px solid black;
+    width: 100px;
+   }
+   #bgimage2{
+    background-image: url(../images/home-section-1-user.png) !important;
+    width: 800px !important;
+    height: 300px !important;
+    background-repeat: no-repeat !important;
+    background-position:center !important;
+    background-size:contain !important;
+   }
